@@ -21,7 +21,7 @@ const AuthForm = ({ isSignup, toggleForm }) => {
         <Form.Control type="password" placeholder="Mot de passe" />
       </Form.Group>
 
-      <Button type="submit" className="me-2 bg-dark colored-text">
+      <Button type="submit" className="me-2 colored-text">
         {isSignup ? "S'inscrire" : "Se connecter"}
       </Button>
 

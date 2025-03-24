@@ -27,7 +27,7 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto d-flex flex-row-reverse w-auto ps-2">
         <Nav.Link as={Link} to="/login">
-          <FaUser className="me-2" />Profil
+          <FaUser className="me-2" id="custom-icon" />Profil
         </Nav.Link>
         </Nav>
       </Navbar.Collapse>
